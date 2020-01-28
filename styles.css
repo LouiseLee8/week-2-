@@ -1,0 +1,30 @@
+body{
+  font-size: 15px;
+  font-family: 'Arial';
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background: red;
+  transition: width 2s;
+  flex-direction: column;
+}
+
+.container a{
+  float: left;
+  display: block;
+  width: 15%;
+  align-items: center;
+}
+
+.container a:hover{
+  background-color: #ddd;
+}
+
+p {
+  width: 85%;
+  align-content: center;
+}
